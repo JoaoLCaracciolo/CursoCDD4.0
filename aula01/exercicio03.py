@@ -1,0 +1,6 @@
+nome = input("Informe seu nome:")
+idade = input("Informe sua idade:")
+salario = float(input("Informe seu salario:"))
+print("-----------------------------------")
+print("Nome:",nome, "\nIdade:", idade, "\nSalário:", salario)
+print("-----------------------------------")
