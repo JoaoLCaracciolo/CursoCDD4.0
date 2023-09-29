@@ -4,5 +4,5 @@ Bem-vindo ao repositório de exercícios em Python para o curso CDD 4.0! Este re
 
 ## Estrutura do Repositório
 
-O repositório está organizado em pastas, cada uma correspondendo a um módulo ou tema específico do curso. Dentro de cada pasta, você encontrará uma variedade de exercícios relacionados a esse tópico.
+O repositório está organizado em pastas, cada uma correspondendo a uma aula específica do curso. Dentro de cada pasta, você encontrará uma variedade de exercícios relacionados a essa aula.
 
