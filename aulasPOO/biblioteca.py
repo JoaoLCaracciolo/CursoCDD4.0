@@ -18,7 +18,7 @@ class Pessoa:
             self.falando = True
             print(f"{self.nome} está falando")
 
-    def comer(self):
+    def comer(self,comida):
         if self.falando == True:
             print(f"{self.nome} não pode comer pois está falando")
         elif self.dormindo == True:
@@ -27,7 +27,7 @@ class Pessoa:
             print(f"{self.nome} já está comendo")
         else:
             self.comendo = True
-            print(f"{self.nome} está comendo")
+            print(f"{self.nome} está comendo {comida}")
 
     def dormir(self):
         if self.falando == True:
