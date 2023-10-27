@@ -26,11 +26,9 @@ class ContaBancaria:
                     if self.saldo < ValorSaque & self.saldo + self.limite > ValorSaque:
                         self.saldo -= ValorSaque
                         print(f"Saque no valor de {ValorSaque} realizado com sucesso")
-                    elif self.saldo > ValorSaque:
+                    else:
                         self.saldo -= ValorSaque
                         print(f"Saque no valor de {ValorSaque} realizado com sucesso")
-                    else:
-                        print("Saldo insuficiente")
             else:
                 print("Conta Invalida")
         else:
